@@ -1,0 +1,69 @@
+.userTable{
+    width:60%;
+    margin:50px auto;
+    background-color:#A1D6E2;
+    padding:50px;
+    border-radius:15px;
+    box-shadow:1px 1px 8px #df5959;
+}
+
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.userTable table thead th{
+    background-color: #1995AD;
+    color: rgb(34, 30, 22);
+    text-align: center;
+}
+
+.userTable table tbody td{
+  padding:10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ActionButtons button{
+  margin:0 7px;  
+}
+
+.noData{
+  margin-top: 20px;
+  text-align:center;
+}
+@media screen and (max-width: 768px) {
+  .userTable {
+            width:600px;
+      margin: 50px auto;    /* Adjust padding for smaller screens */
+  }
+  
+  .userTable table {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  
+  .userTable table thead th {
+      padding: 8px;
+  }
+  
+  .userTable table tbody td {
+      padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .userTable {
+      width:630.4703px; /* Adjust width for smaller screens */
+       /* Adjust padding for smaller screens */
+    padding: 5px auto;
+    margin: 20px auto;
+    }
+ 
+}
+
+
+
+
+
+
+
