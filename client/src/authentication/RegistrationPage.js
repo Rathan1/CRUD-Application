@@ -22,7 +22,7 @@ const RegistrationPage = () => {
   const handleRegistrationSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/api/register', registrationData);
+      const response = await axios.post('http://user-management-app-h3iz.vercel.app/api/register', registrationData);
       // Assuming your API returns a message in the response data upon successful registration
       toast.success(response.data.message, {
         position: 'top-right'
