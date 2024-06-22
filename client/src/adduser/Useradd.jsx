@@ -24,7 +24,7 @@ const Useradd = () => {
   const submitForm = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8000/api/user", user);
+      const response = await axios.post("http://user-management-app-h3iz.vercel.app/api/user", user);
       // Assuming response.data.message is available if you want to display success message
      toast.success(response.data.message, { position: "top-right" });
       navigate("/enter"); // Navigate to home or any other route after successful submission
