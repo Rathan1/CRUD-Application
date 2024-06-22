@@ -22,7 +22,7 @@ const LoginPage = () => {
          //to check whether the user is registered or not
         try{            
             //axios to fetch and post the data
-          const response= await axios.post('http://localhost:8000/api/login',loginData);
+          const response= await axios.post('http://user-management-app-h3iz.vercel.app/api/login',loginData);
          const {success,message}=response.data;
          if(success){
             console.log("login successful")
