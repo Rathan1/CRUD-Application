@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors(
   {
-  orirgin: [],
+  orirgin: ["https://user-management-app-frontend-six.vercel.app"],
   method:["POST","GET"],
   credentials:true
             }
